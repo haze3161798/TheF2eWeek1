@@ -3,12 +3,20 @@ import { gsap } from "gsap"
 import { onMounted } from "vue"
 import { useLoadingStore } from "@/stores/loading"
 const store = useLoadingStore()
+
+/** @enum {string} */
 const UrlEnum = {
+  /** @type {"block"} */
   BLOCK: "block",
+  /** @type {"titan"} */
   TITAN: "titan",
+  /** @type {"kdan"} */
   KDAN: "kdan",
+  /** @type {"jira"} */
   JIRA: "jira",
+  /** @type {"miro"} */
   MIRO: "miro",
+  /** @type {"dootted"} */
   DOOTTED: "dootted",
 }
 const urlData = {
