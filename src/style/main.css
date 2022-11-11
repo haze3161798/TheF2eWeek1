@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Typography;
+  src: url("../assets/text/Cubic_11_1.013_R.ttf");
+}
+* {
+  font-family: Typography;
+  color: #fff;
+}
+
+.red-block-document {
+  top: 120%;
+  left: 33%;
+}
+
+.red-block-document.right {
+  top: 120%;
+  left: 33%;
+  right: unset;
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .small-btn {
+    @apply w-26 bg-white text-center;
+  }
+}
