@@ -116,7 +116,7 @@ onMounted(() => {
   <div class="flex justify-end mb-60 relative">
     <div
       id="se2Chat"
-      class="text-4xl whitespace-nowrap absolute z-10 red-block-document right lg:top-1/2 lg:right-2/3"
+      class="text-4xl whitespace-nowrap absolute z-10 red-block-document right soldier1-text"
     ></div>
     <div
       id="soldier1-container"
@@ -150,6 +150,10 @@ onMounted(() => {
   .tank-document {
     top: 42%;
     left: 76%;
+  }
+  .soldier1-text.right {
+    top: 50%;
+    right: 66.666666%;
   }
 }
 </style>
